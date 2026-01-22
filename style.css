@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    width: 420px;
+    margin: 40px auto;
+    background-color: #e9ffff;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #86b4d9;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.card-header h1 {
+    font-size: 26px;
+    margin-bottom: 8px;
+}
+
+.card-header p {
+    font-size: 16px;
+}
+
+.card-body {
+    padding: 25px;
+}
+
+.card-body h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #222;
+    border-bottom: 2px solid #86b4d9;
+    padding-bottom: 5px;
+}
+
+.card-body p {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.skill-box {
+    background-color: #eaf4e6;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 6px;
+    color: #86b4d9;
+}
+
+.email {
+    color: grey;
+    font-weight: bold;
+}
+
+.card-footer {
+    background-color: #86b4d9 padding: 20px;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 22px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 5px;
+}
+
+.primary {
+    background-color: #86b4d9;
+}
+
+.secondary {
+    background-color: #7a7a7a;
+}
+
+.primary:hover {
+    background-color: #86b4d9;
+}
+
+.secondary:hover {
+    background-color: #666666;
+}
